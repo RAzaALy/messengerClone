@@ -47,6 +47,7 @@
   flex: 0;
 }
 .input {
+  position: relative;
   flex: 1;
   font-size: 1.6rem !important;
 }
@@ -106,9 +107,11 @@
 .emoji-mart {
   z-index: 444 !important;
   position: fixed !important;
-  right: 1% !important;
-  bottom: 13% !important;
-  width: 273px !important;
+  right: 25% !important;
+  bottom: 14% !important;
+  height: 40% !important;
+  width: 50% !important;
+  overflow: hidden !important;
 }
 .emojiBtn {
   position: fixed;
@@ -123,6 +126,15 @@
 @media (max-width: 768px) {
   .form {
     width: 80%;
+  }
+  .emoji-mart {
+    z-index: 444 !important;
+    position: fixed !important;
+    right: 9% !important;
+    bottom: 14% !important;
+    height: 40% !important;
+    width: 80% !important;
+    overflow: hidden !important;
   }
   #pop {
     width: 80%;

@@ -86,7 +86,7 @@ const App = () => {
         style={css ? { visibility: "visible" } : { visibility: "hidden" }}
       >
         <div id="pop">
-          <h1 id="heading">Welcome to our Messenger Clone</h1>
+          <h1 id="heading">Welcome to Messenger Clone</h1>
           <input
             autoComplete="off"
             type="text"
@@ -98,7 +98,6 @@ const App = () => {
           <br />
           <Button
             variant="contained"
-            color="primary"
             disabled={userName.length < 3}
             className="submit btn"
             onClick={notify}
@@ -132,9 +131,7 @@ const App = () => {
               <SendIcon />
             </IconButton>
           </FormControl>
-        </form>
-      </div>
-      {emoji.showEmojis ? (
+          {emoji.showEmojis ? (
         <>
           <Picker
             showPreview={false}
@@ -155,6 +152,9 @@ const App = () => {
           {String.fromCodePoint(0x1f60a)}
         </p>
       )}
+        </form>
+      </div>
+
       <FlipMove>
         {/*messages */}
         {messages.map(({ message, id }) => {

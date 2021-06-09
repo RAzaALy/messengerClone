@@ -26,9 +26,9 @@ const Message = forwardRef(({ message, username }, ref) => {
                 {!isUser && `${message.username || "unknown user"}`}
                 {isUser && `${username}`}
               </div>
-              <div class="msg-info-time">{time}</div>
+              <div className="msg-info-time">{time}</div>
             </div>
-            <div class="msg-text">{message.message}</div>
+            <div className="msg-text">{message.message}</div>
           </div>
         </div>
       </main>
