@@ -111,6 +111,8 @@ const App = () => {
         <img src="logo.png" alt="logo" className="logo" />
         <h1>Messenger Clone 🚀</h1>
         {/* input Field */}
+        <div className="formBox">
+
         <form className="form">
           <FormControl className="formControl">
             <Input
@@ -153,6 +155,7 @@ const App = () => {
         </p>
       )}
         </form>
+        </div>
       </div>
 
       <FlipMove>
