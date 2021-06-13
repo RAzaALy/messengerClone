@@ -151,6 +151,9 @@
   .makeStyles-root-1 {
     display: none !important;
   }
+  .jss1{
+    display: none !important;
+  }
 }
 @media (max-width: 530px) {
   .emojiBtn {
