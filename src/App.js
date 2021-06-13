@@ -128,7 +128,7 @@ const App = () => {
               color="primary"
               onClick={sendMessage}
             >
-              <SendIcon />
+              <SendIcon  style={{"fontSize": "2rem","cursor":"pointer"}}/>
             </IconButton>
           </FormControl>
           {emoji.showEmojis ? (
@@ -161,7 +161,7 @@ const App = () => {
           return <Message key={id} message={message} username={userName} />;
         })}
       </FlipMove>
-      <Scroll showBelow={250} />
+      <Scroll showBelow={250}/>
     </div>
   );
 };
