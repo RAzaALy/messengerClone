@@ -86,7 +86,7 @@ const App = () => {
         style={css ? { visibility: "visible" } : { visibility: "hidden" }}
       >
         <div id="pop">
-          <h1 id="heading">Welcome to Messenger Clone</h1>
+          <h1 id="heading">Welcome to Facebook Messenger</h1>
           <input
             autoComplete="off"
             type="text"
@@ -109,7 +109,7 @@ const App = () => {
 
       <div className="container">
         <img src="logo.png" alt="logo" className="logo" />
-        <h1>Messenger Clone 🚀</h1>
+        <h1> Facebook Messenger 🚀</h1>
         {/* input Field */}
         <div className="formBox">
 
