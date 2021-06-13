@@ -77,7 +77,7 @@ const App = () => {
      
     );
   };
-  useEffect(() => {}, [setEmoji]);
+  // useEffect(() => {}, [setEmoji]);
   return (
     <div className="app">
       <ToastContainer style={{ fontSize: "1.4rem" }} />
