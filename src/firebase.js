@@ -1,6 +1,6 @@
 import firebase from "firebase";
 const firebaseConfig = {
-  apiKey: "AIzaSyDqAlk2mnx3oz_dZeMkzXTekqjjTyxarGk",
+  apiKey: "your api key",
   authDomain: "messengerclone-d4793.firebaseapp.com",
   projectId: "messengerclone-d4793",
   storageBucket: "messengerclone-d4793.appspot.com",
